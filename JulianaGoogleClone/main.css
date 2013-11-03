@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+	background-color: black;
+	font-family: helvetica;
+	color: white;
+	font-size: 13px;
+	
+	padding: 10px;
+	word-spacing: 15px;
+}
+header a:link,
+header a:visited,
+header a:active {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+header a:hover {
+	color:  #A9A9A9;
+}
+
+ #signin button {
+	border-radius: 2px;
+	padding: 8px 12px;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: 600;
+	box-shadow: none;
+	border-width: thin;
+	border-style: solid;
+	background-color: #d14836;
+	color: white;
+	float: right;
+	margin-right: 20px;
+	border: 1px solid #992a1b;
+
+}
+
+ #logo {
+ 	margin: 140px auto 0 auto;
+	width: 250px;
+ 	display: block;
+
+ }
+
+#googleform {
+	text-align: center;
+
+
+}
+
+#googleform input {
+	height: 30px;
+	width: 500px;
+	border-radius: 0%;
+ 	border-color: #DCDCDC;
+ 	border-style: solid;
+ 	border-width: thin;
+ 	box-shadow: none;
+ 	font-size: 13px;
+ 	padding: 0 5px;
+ 	margin: 15px auto 0 auto;
+}
+
+button {
+	border-radius: 2px;
+	padding: 8px;
+	font-family: helvetica;
+	font-weight: 600;
+	box-shadow: none;
+	border-width: thin;
+	border-style: solid;
+	background-color: #F8F8F8;
+	color: #303030;
+
+}
+
+#buttons {
+	text-align: center;
+	margin-top: 12px;
+}
+
+#googleform input:focus { 
+	border-color: #1E90FF;
+	border-style: solid;
+	border-width: thin;
+	outline: none;	
+} 
+
+footer {
+ clear: both;
+ background-color: #F0F0F0;
+ font-family: helvetica;
+ font-size: 13px;
+ padding: 15px 0;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ color: #686868;
+ display: inline;
+}
+
+ul#leftfooter {
+	margin-left: 30px;
+}
+
+ul#rightfooter {
+	margin-right: 30px;
+}
+
+ul#leftfooter li{
+	float: left;
+	display: inline;
+	margin-right: 30px;
+}
+
+ul#rightfooter li{
+	float: right;
+	display: inline;
+	margin-left: 30px;
+}
+
+
+
+
+
